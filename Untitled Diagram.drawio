@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T13:48:04.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="L5MdNCRA0ShMlQqu9gfA" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T13:51:26.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="ZccnwVQY7CXt2P0nP1CL" version="20.8.20" type="github" pages="2">
   <diagram name="Page-1" id="FIGkw67pMRDh4MM9zdk1">
     <mxGraphModel dx="874" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -131,14 +131,14 @@
         <mxCell id="3Uu9GB4KOyHP60_tCdzX-1" value="&lt;h1&gt;Empleado&amp;nbsp;&lt;/h1&gt;&lt;div&gt;En este caso va a ser el usuario final del programa, encargado de usarlo para enviar al cliente todos los datos requeridos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="490" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3Uu9GB4KOyHP60_tCdzX-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Informacion vehiculo&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;Se ingresara el placa, tipo de auto (CL C o particular) seguido opcionalmente de la cedula a nombre de quien estara el seguro y el precio del vehiculo&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="50" width="190" height="160" as="geometry" />
+        <mxCell id="3Uu9GB4KOyHP60_tCdzX-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Informacion vehiculo&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;Se ingresara el placa, tipo de auto (CL C o particular) seguido opcionalmente de la cedula a nombre de quien estara el seguro, tipo de cedula y el precio del vehiculo&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="50" width="190" height="180" as="geometry" />
         </mxCell>
         <mxCell id="3Uu9GB4KOyHP60_tCdzX-3" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Obtener Informacion Vehiculo&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;En base al numero de placa se buscara el vehiculo en el registro y se obtendra la informacion desplegada&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="210" width="190" height="220" as="geometry" />
+          <mxGeometry x="850" y="240" width="190" height="220" as="geometry" />
         </mxCell>
         <mxCell id="3Uu9GB4KOyHP60_tCdzX-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Obtener Valor CrAutos&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Con la informacion obtenida en el registro se buscara en CrAutos el promedio de venta del tipo de auto especifico&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="440" width="190" height="200" as="geometry" />
+          <mxGeometry x="850" y="470" width="190" height="200" as="geometry" />
         </mxCell>
         <mxCell id="3Uu9GB4KOyHP60_tCdzX-5" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Obtener Cotizaciones&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Con la informacion obtenida en el registro se ingresara en los diversos cotizadores (Oceanica,Ins,Qualitas,Lafise)&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="50" width="190" height="200" as="geometry" />
@@ -152,6 +152,14 @@
         <mxCell id="3Uu9GB4KOyHP60_tCdzX-8" value="&lt;h1&gt;Recordatorio Renovaciones&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;A modo calendario se enviaran recordatorios para realizar renovaciones de acuerdo al contrato firmado, esta seccion es enteramente manual dado que se necesita sabe cuando se firmo el documento para agendar cuando inicia la poliza&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1240" y="50" width="190" height="310" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bC1XrYRw6SxwnsGgWsT8" name="Page-2">
+    <mxGraphModel dx="874" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
