@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T15:36:22.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="dXM-tRShkp03DKv_M0Pq" version="20.8.20" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-17T01:01:22.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FNWYT12JluQgGXzmI7Vl" version="21.0.6" type="github" pages="2">
   <diagram name="Caso de uso" id="FIGkw67pMRDh4MM9zdk1">
-    <mxGraphModel dx="874" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="880" width="125" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="IhLSrTR3K9B3fhgBk1G8-4" value="Cotizador" style="swimlane;fontStyle=1;align=center;horizontal=1;startSize=30;collapsible=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="50" width="600" height="620" as="geometry" />
         </mxCell>
@@ -151,6 +154,61 @@
         </mxCell>
         <mxCell id="3Uu9GB4KOyHP60_tCdzX-8" value="&lt;h1&gt;Recordatorio Renovaciones&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;A modo calendario se enviaran recordatorios para realizar renovaciones de acuerdo al contrato firmado, esta seccion es enteramente manual dado que se necesita sabe cuando se firmo el documento para agendar cuando inicia la poliza&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1240" y="50" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-1" value="Empleado" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="890" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="890" as="sourcePoint" />
+            <mxPoint x="780" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gBTOfNLSU9MygMFZnvHX-7" target="gBTOfNLSU9MygMFZnvHX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.04;entryY=-0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gBTOfNLSU9MygMFZnvHX-7" target="gBTOfNLSU9MygMFZnvHX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-7" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="1040" y="740" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-9" value="" style="shape=mxgraph.cisco.routers.wireless_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="770" width="78" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gBTOfNLSU9MygMFZnvHX-12" target="gBTOfNLSU9MygMFZnvHX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gBTOfNLSU9MygMFZnvHX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.laptop" vertex="1" parent="1">
+          <mxGeometry x="1030" y="847" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gBTOfNLSU9MygMFZnvHX-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gBTOfNLSU9MygMFZnvHX-14" target="gBTOfNLSU9MygMFZnvHX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-14" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="1160" y="800" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-16" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;USO RED&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;El usuario&amp;nbsp;final va a utilizar&amp;nbsp;dispositivos finales que va a utilizar para utilizar dicha herramienta.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="700" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-18" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/CustomDomain.svg;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="950" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gBTOfNLSU9MygMFZnvHX-23" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plataforma&lt;/span&gt;&lt;/h1&gt;Utilizar&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;la herramienta brindada por Cr para buscar cotizaciones por medio&lt;/span&gt;&lt;br&gt;&lt;div&gt;brindadas por CrAutos&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="870" width="340" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
